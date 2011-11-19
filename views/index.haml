@@ -1,1 +1,30 @@
-%h1 hello world
+!!! 5
+%html
+	%head
+		%title Hello, world
+		%meta{:charset => "utf-8"}
+		%link{:rel => "stylesheet", :href => "css/white.css", :type =>"text/css", :media =>"screen"}
+		%link{:rel => "stylesheet", :href => "css/grid.css", :type =>"text/css", :media =>"screen"}
+
+	%body
+		.container_12
+			.content 
+				%img{:src => "images/bg_01.jpg", :alt => "james"}
+				.quote
+					%h2 lets code not talk!
+					.grid_4
+						%p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+			.clear
+			.grid_2
+				.footer	
+					%p Photos by @workmajj
+			.grid_2
+				.footer
+					%p Currently hosted @spotify
+			.grid_2 
+				.footer
+					%p Contact us to host Hacker School
+			.grid_6
+				.footer
+					%p Hacker School was born @YC and supported by Founder Collective & SV Angel
+					
